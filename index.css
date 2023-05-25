@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+.body{
+    padding: 10rem;
+    background-color:rgb(255, 255, 255) ;
+}
+
+.melol{
+    border-radius: 50%;
+}
+
+.header{
+    background: palevioletred;
+    padding: 20px;
+    
+    
+    
+}
+
+.topnav {
+    overflow: hidden;
+    background:pink ;
+    position: sticky;
+    
+}
+
+.topnav a {
+    float: left;
+    display: flex;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+
+  .about-me {
+    background: pink;
+  }
+    .projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: pink;
+    width: 500rem;
+    height: 400rem;
+    align-items: space-around;
+    text-align: center;
+}
+  .row1{
+    display: flex;
+    background: palevioletred;
+    width:150rem ;
+    height:150rem ;
+    text-align: center;
+  }
+
+  .row2{
+    display: flex;
+    background:palevioletred ;
+    width:150rem ;
+    height:150rem ;
+    text-align: center;
+  }
+  .row3{
+    display: flex;
+    background:palevioletred ;
+    width:150rem ;
+    height:150rem ;
+    text-align: center;
+  }
+
+  .footer{
+    display: flex;
+    background: palevioletred;
+    width: 90%;
+    height: 20%;
+  }
+
